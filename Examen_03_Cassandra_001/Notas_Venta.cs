@@ -41,6 +41,12 @@ namespace Examen_03_Cassandra_001
                 return;
             }
 
+            if (productosNotaVenta == null || productosNotaVenta.Count <= 0)
+            {
+                MessageBox.Show("Falta agregar productos", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             if (esNuevoRegistro)
             {
                 // aqui se agrega uno nuevo

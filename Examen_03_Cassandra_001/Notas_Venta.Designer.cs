@@ -84,7 +84,7 @@
             this.Agregar.Margin = new System.Windows.Forms.Padding(4);
             this.Agregar.Name = "Agregar";
             this.Agregar.Size = new System.Drawing.Size(88, 26);
-            this.Agregar.TabIndex = 7;
+            this.Agregar.TabIndex = 11;
             this.Agregar.Text = "Agregar Nota";
             this.Agregar.UseVisualStyleBackColor = false;
             this.Agregar.Click += new System.EventHandler(this.Agregar_Click);
@@ -136,7 +136,7 @@
             this.Fecha_proc.Margin = new System.Windows.Forms.Padding(4);
             this.Fecha_proc.Name = "Fecha_proc";
             this.Fecha_proc.Size = new System.Drawing.Size(177, 23);
-            this.Fecha_proc.TabIndex = 6;
+            this.Fecha_proc.TabIndex = 4;
             // 
             // label8
             // 
@@ -160,7 +160,7 @@
             this.Eliminar.Margin = new System.Windows.Forms.Padding(4);
             this.Eliminar.Name = "Eliminar";
             this.Eliminar.Size = new System.Drawing.Size(88, 26);
-            this.Eliminar.TabIndex = 9;
+            this.Eliminar.TabIndex = 13;
             this.Eliminar.Text = "Eliminar";
             this.Eliminar.UseVisualStyleBackColor = false;
             this.Eliminar.Click += new System.EventHandler(this.Eliminar_Click);
@@ -228,7 +228,7 @@
             this.Precio.MaxLength = 30;
             this.Precio.Name = "Precio";
             this.Precio.Size = new System.Drawing.Size(177, 23);
-            this.Precio.TabIndex = 38;
+            this.Precio.TabIndex = 7;
             this.Precio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Precio_n);
             // 
             // label5
@@ -249,7 +249,7 @@
             this.Cantidad.MaxLength = 30;
             this.Cantidad.Name = "Cantidad";
             this.Cantidad.Size = new System.Drawing.Size(125, 23);
-            this.Cantidad.TabIndex = 36;
+            this.Cantidad.TabIndex = 6;
             this.Cantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Cantidad_n);
             // 
             // AgregarProducto
@@ -262,7 +262,7 @@
             this.AgregarProducto.Margin = new System.Windows.Forms.Padding(4);
             this.AgregarProducto.Name = "AgregarProducto";
             this.AgregarProducto.Size = new System.Drawing.Size(125, 26);
-            this.AgregarProducto.TabIndex = 35;
+            this.AgregarProducto.TabIndex = 8;
             this.AgregarProducto.Text = "Agregar Producto";
             this.AgregarProducto.UseVisualStyleBackColor = false;
             this.AgregarProducto.Click += new System.EventHandler(this.AgregarProducto_Click);
@@ -278,7 +278,7 @@
             this.RetirarProducto.Margin = new System.Windows.Forms.Padding(4);
             this.RetirarProducto.Name = "RetirarProducto";
             this.RetirarProducto.Size = new System.Drawing.Size(88, 26);
-            this.RetirarProducto.TabIndex = 34;
+            this.RetirarProducto.TabIndex = 9;
             this.RetirarProducto.Text = "Retirar";
             this.RetirarProducto.UseVisualStyleBackColor = false;
             this.RetirarProducto.Click += new System.EventHandler(this.RetirarProducto_Click);
@@ -316,7 +316,7 @@
             this.Nom_proc.MaxLength = 30;
             this.Nom_proc.Name = "Nom_proc";
             this.Nom_proc.Size = new System.Drawing.Size(177, 23);
-            this.Nom_proc.TabIndex = 31;
+            this.Nom_proc.TabIndex = 5;
             // 
             // Nom_empleado
             // 
@@ -325,7 +325,7 @@
             this.Nom_empleado.MaxLength = 30;
             this.Nom_empleado.Name = "Nom_empleado";
             this.Nom_empleado.Size = new System.Drawing.Size(177, 23);
-            this.Nom_empleado.TabIndex = 16;
+            this.Nom_empleado.TabIndex = 3;
             // 
             // Limpiar
             // 
@@ -337,7 +337,7 @@
             this.Limpiar.Margin = new System.Windows.Forms.Padding(4);
             this.Limpiar.Name = "Limpiar";
             this.Limpiar.Size = new System.Drawing.Size(88, 26);
-            this.Limpiar.TabIndex = 8;
+            this.Limpiar.TabIndex = 12;
             this.Limpiar.Text = "Limpiar";
             this.Limpiar.UseVisualStyleBackColor = false;
             this.Limpiar.Click += new System.EventHandler(this.Limpiar_Click);
